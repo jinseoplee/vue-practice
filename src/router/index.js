@@ -97,6 +97,11 @@ const routes = [
     component: () => import("../views/DataBindingList.vue"),
   },
   {
+    path: "/databindinglist2",
+    name: "DataBindingList2",
+    component: () => import("../views/DataBindingList2.vue"),
+  },
+  {
     path: "/renderingvif",
     name: "RenderingVIf",
     component: () => import("../views/RenderingVIf.vue"),
