@@ -131,6 +131,46 @@ const routes = [
     name: "WatchEx2",
     component: () => import("../views/WatchEx2.vue"),
   },
+  {
+    path: "/nested",
+    name: "NestedComponent",
+    component: () => import("../views/NestedComponent.vue"),
+  },
+  {
+    path: "/parent",
+    name: "ParentComponent",
+    component: () => import("../views/ParentComponent.vue"),
+  },
+  {
+    path: "/parent2",
+    name: "ParentComponent2",
+    component: () => import("../views/ParentComponent2.vue"),
+  },
+  {
+    path: "/parent3",
+    name: "ParentComponent3",
+    component: () => import("../views/ParentComponent3.vue"),
+  },
+  {
+    path: "/parent4",
+    name: "ParentComponent4",
+    component: () => import("../views/ParentComponent4.vue"),
+  },
+  {
+    path: "/parent5",
+    name: "ParentComponent5",
+    component: () => import("../views/ParentComponent5.vue"),
+  },
+  {
+    path: "/slot",
+    name: "SlotUseModalLayout",
+    component: () => import("../views/SlotUseModalLayout.vue"),
+  },
+  {
+    path: "/provide",
+    name: "ProvideInject",
+    component: () => import("../views/ProvideInject.vue"),
+  },
 ];
 
 const router = createRouter({
