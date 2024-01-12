@@ -171,6 +171,51 @@ const routes = [
     name: "ProvideInject",
     component: () => import("../views/ProvideInject.vue"),
   },
+  {
+    path: "/calculator",
+    name: "SumCalculator",
+    component: () => import("../views/SumCalculator.vue"),
+  },
+  {
+    path: "/composition",
+    name: "CompositionAPI",
+    component: () => import("../views/CompositionAPI.vue"),
+  },
+  {
+    path: "/composition2",
+    name: "CompositionAPI2",
+    component: () => import("../views/CompositionAPI2.vue"),
+  },
+  {
+    path: "/composition3",
+    name: "CompositionAPI3",
+    component: () => import("../views/CompositionAPI3.vue"),
+  },
+  {
+    path: "/composition4",
+    name: "CompositionAPI4",
+    component: () => import("../views/CompositionAPI4.vue"),
+  },
+  {
+    path: "/composition_provide",
+    name: "CompositionAPIProvide",
+    component: () => import("../views/CompositionAPIProvide.vue"),
+  },
+  {
+    path: "/mixinsex",
+    name: "MixinsEx",
+    component: () => import("../views/MixinsEx.vue"),
+  },
+  {
+    path: "/customdirective",
+    name: "CustomDirective",
+    component: () => import("../views/CustomDirective.vue"),
+  },
+  {
+    path: "/pluginsex",
+    name: "PluginsEx",
+    component: () => import("../views/PluginsEx.vue"),
+  },
 ];
 
 const router = createRouter({
